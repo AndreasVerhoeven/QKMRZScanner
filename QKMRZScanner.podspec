@@ -4,7 +4,6 @@ Pod::Spec.new do |s|
   s.platform = :ios, "13"
   s.ios.deployment_target = "11.0"
   s.swift_version = "5.0"
-  s.pod_target_xcconfig = { "EXCLUDED_ARCHS[sdk=iphonesimulator*]" => "arm64" }
   
   s.summary  = "Scans MRZ (Machine Readable Zone) from identity documents (passport, id, visa)."
   s.author   = { "Matej Dorcak" => "sss.mado@gmail.com" }
